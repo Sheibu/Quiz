@@ -1,0 +1,44 @@
+#titulo{
+    font-size: 30px;
+    font-weight: bold;
+    height: 3em;
+}
+.titulo{
+    float: left;
+    margin-top: 1rem;
+}
+#imagen{
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+#texto{
+    padding-top: 1em;
+}
+span{
+    margin: 1em;
+}
+
+.icon{
+    height: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-weight:bold;
+}
+
+ul li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a span{
+    position: relative;
+    bottom: 10%;
+}

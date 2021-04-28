@@ -1,0 +1,25 @@
+div{
+    box-sizing: border-box;
+    width: 60%;
+}
+.cliente{
+
+    float: left;
+    border: solid;
+    border-color: black;
+    height: 100px;
+    width: 300px;
+    margin:1em;
+
+}
+.infoCliente{
+    float: right;
+    margin-top: 1em;
+    height: 90%;
+    width: 65%;
+}
+.imagen{
+    float: left;
+    width: 30%;
+    margin-left: 0.5rem;
+}

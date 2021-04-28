@@ -1,0 +1,31 @@
+<div id="titulo">
+    <div id="imagen" class="titulo">
+        <img src="../../assets/img/imagen1.png">
+    </div>
+    <div id="texto" class="titulo">
+        <span>Clientes</span>
+    </div>
+</div>
+<br>
+<nav>
+    <ul>
+        <li>
+            <a [routerLink]="['/vistacard']" routerLinkActive="router-link-active" >
+                <img class="icon" src="../../assets/img/menuicon.png">
+                <span>Vista Card</span> 
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['/lista']" routerLinkActive="router-link-active" >
+                <img class="icon" src="../../assets/img/menuicon.png">
+                <span>Lista</span>
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['/adicionar']" routerLinkActive="router-link-active" >
+                <img class="icon" src="../../assets/img/mas.png">
+                <span>Adicionar</span>
+            </a>
+        </li>
+    </ul>
+</nav>
